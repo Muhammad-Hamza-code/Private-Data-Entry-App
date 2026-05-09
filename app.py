@@ -76,7 +76,7 @@ if st.sidebar.button("Logout"):
 # --- VIEW DIRECTORY ---
 if page == "View Directory":
     st.title("🏫 School Directory Database")
-    st.write("Current list of schools in Sukkur and Lahore.")
+    st.write("Current list of schools in Pakistan.")
     
     # EXACT SCHOOL NAME SEARCH FUNCTIONALITY
     search_query = st.text_input("🔍 Search specifically by School Name", placeholder="Type a school name here...")
@@ -139,4 +139,4 @@ elif page == "Remove School":
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.info("GCC School Management Module - v1.0")
+st.sidebar.info("EZ School Management Module - v1.0")
