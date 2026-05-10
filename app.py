@@ -10,7 +10,9 @@ st.set_page_config(page_title="School Directory Manager", layout="wide")
 # Define the list of emails that are allowed to access the app
 ALLOWED_EMAILS = [
     "ezlabsproducts@gmail.com",
-    "meetmunazza212010@gmail.com"
+    "meetmunazza212010@gmail.com",
+    "golohassan268@gmail.com",
+    "rajputmuhammad244@gmail.com"
 ] # Replace these with your actual authorized emails
 
 # Initialize login state
